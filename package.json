@@ -1,0 +1,25 @@
+{
+  "name": "node-got-script",
+  "version": "1.0.0",
+  "description": "Command line script that send Character information fetched from two got related api's to a remote service",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "got",
+    "api"
+  ],
+  "author": "Pedro Pinho",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "@types/node": "^18.0.1",
+    "jest": "^28.1.2"
+  }
+}
